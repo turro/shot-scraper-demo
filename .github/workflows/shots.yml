@@ -1,6 +1,8 @@
 name: Take screenshots
 
 on:
+  schedule:
+    - cron: '0 * * * *'  # Cada hora en punto (UTC)
   push:
   workflow_dispatch:
 
