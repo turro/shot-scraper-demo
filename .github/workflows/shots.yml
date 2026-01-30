@@ -1,6 +1,6 @@
 name: Take screenshots
 
-on:
+#on:
   schedule:
     - cron: '0 * * * *'  # Cada hora en punto (UTC)
   push:
